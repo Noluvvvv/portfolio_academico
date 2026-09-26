@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="css/style.css">
+    <title>Contato | Gabriel Henrique</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Contato</h1>
+        <p>Gabriel Henrique dos Santos Lopes</p>
+
+        <nav>
+            <a href="index.html">Voltar ao portfólio</a> |
+            <a href="#canais">Canais de contato</a> |
+            <a href="#formulario">Enviar mensagem</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+
+        <section id="canais">
+            <h2>Canais de contato</h2>
+
+            <ul>
+                <li>
+                    <strong>E-mail:</strong>
+                    <a href="mailto:gabrielhenrique.plis@gmail.com">gabrielhenrique.plis@gmail.com</a>
+                </li>
+                <li>
+                    <strong>LinkedIn:</strong>
+                    <a href="https://www.linkedin.com/in/gabriel-lopes-9961b53b4" target="_blank" rel="noopener noreferrer">
+                        linkedin.com/in/gabriel-lopes-9961b53b4
+                    </a>
+                </li>
+                <li>
+                    <strong>GitHub:</strong>
+                    <a href="https://github.com/Noluvvvv" target="_blank" rel="noopener noreferrer">
+                        github.com/Noluvvvv
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="formulario">
+            <h2>Envie uma mensagem</h2>
+
+            <form action="mailto:gabrielhenrique.plis@gmail.com" method="post" enctype="text/plain">
+                <fieldset>
+                    <legend>Formulário de contato</legend>
+
+                    <p>
+                        <label for="nome">Nome:</label><br>
+                        <input type="text" id="nome" name="nome" required minlength="3"
+                            placeholder="Digite seu nome">
+                    </p>
+
+                    <p>
+                        <label for="email">E-mail:</label><br>
+                        <input type="email" id="email" name="email" required
+                            placeholder="seuemail@exemplo.com">
+                    </p>
+
+                    <p>
+                        <label for="assunto">Assunto:</label><br>
+                        <select id="assunto" name="assunto" required>
+                            <option value="">Selecione o assunto</option>
+                            <option value="projeto">Proposta de projeto</option>
+                            <option value="estagio">Oportunidade de estágio</option>
+                            <option value="duvida">Dúvida</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="mensagem">Mensagem:</label><br>
+                        <textarea id="mensagem" name="mensagem" rows="6" cols="50" required
+                            minlength="10" maxlength="500"
+                            placeholder="Escreva sua mensagem"></textarea>
+                    </p>
+
+                    <p>
+                        <button type="submit">Enviar mensagem</button>
+                        <button type="reset">Limpar</button>
+                    </p>
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <hr>
+        <p>&copy; 2026 Gabriel Henrique dos Santos Lopes. Todos os direitos reservados.</p>
+        <a href="index.html">Voltar ao portfólio</a>
+    </footer>
+
+</body>
+</html>
